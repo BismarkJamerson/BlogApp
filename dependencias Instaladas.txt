@@ -2,3 +2,4 @@ Express => npm install --save express
 Handlebars => npm install --save express-handlebars
 BodyParser => npm install body-parser --save
 Mongoose => npm install --save mongoose
+Bootstrap => pasta "public"
