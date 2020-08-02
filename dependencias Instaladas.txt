@@ -3,3 +3,5 @@ Handlebars => npm install --save express-handlebars
 BodyParser => npm install body-parser --save
 Mongoose => npm install --save mongoose
 Bootstrap => pasta "public"
+Express-Session => npm install --save express-session
+Connect-Flash => npm install --save connect-flash
