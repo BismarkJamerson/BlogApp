@@ -20,11 +20,11 @@ const Postagem = new Schema({
     },
     categoria:{
         type: Schema.Types.ObjectId, //Relaciona documentos
-        ref: categorias, //nome do model
+        ref: "categorias", //nome do model
         required: true
     },
-    date:{
-        type:date,
+    data:{
+        type: Date,
         default: Date.now()
     }
 })
